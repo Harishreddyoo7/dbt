@@ -1,0 +1,16 @@
+# models/schema.yml
+
+version: 2
+
+models:
+  - name: hacker_data
+    columns:
+      - name: id
+        description: "Unique identifier for each record"
+        tests:
+          - unique
+      - name: name
+        description: "Name of the hacker"
+      - name: occupation
+        description: "Occupation of the hacker"
+      

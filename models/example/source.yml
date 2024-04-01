@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: src_postgres
+    schema: public
+    database: test
+
+    tables:
+      - name: hacker_data
